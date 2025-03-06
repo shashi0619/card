@@ -1,6 +1,5 @@
-import { DarkThemeToggle } from "flowbite-react";
 
-function App() {
+function Card() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
       <div className="flex flex-col md:flex-row bg-white border border-gray-200 rounded-lg shadow-sm md:max-w-2xl w-full">
@@ -50,4 +49,4 @@ function App() {
   );
 }
 
-export default App;
+export default Card;
